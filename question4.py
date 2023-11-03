@@ -112,11 +112,11 @@
 #
 #     def display(self):
 #       if self.fs == self.ss == self.ts:
-#           print("Данный треугольник является равносторонним")
+#           print(f"Данный треугольник является равносторонним", int((self.fs + self.ts + self.ss) / 2 ))
 #       if self.fs == self.ss != self.ts:
-#           print("Данный треугольник является равнобедренным")
+#           print(f"Данный треугольник является равнобедренным", int((self.fs + self.ts + self.ss) / 2))
 #       if self.fs != self.ss != self.ts:
-#             print("Данный треугольник является разносторонним")
+#           print(f"Данный треугольник является разносторонним", int((self.fs + self.ts + self.ss) / 2))
 #
 # x = Rectangle(3, 3, 5)
 # x.display()
